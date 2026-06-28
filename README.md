@@ -1,16 +1,161 @@
-# React + Vite
+# 📋 ERP Attendance Admin Panel
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+<p align="center">
 
-Currently, two official plugins are available:
+![React](https://img.shields.io/badge/React-Frontend-blue?logo=react)
+![Vite](https://img.shields.io/badge/Vite-Build-purple?logo=vite)
+![Material UI](https://img.shields.io/badge/Material_UI-MUI-007FFF?logo=mui)
+![Axios](https://img.shields.io/badge/Axios-API-blueviolet)
+![Status](https://img.shields.io/badge/Status-Internship_Project-success)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+</p>
 
-## React Compiler
+## 📖 About the Project
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This repository contains the **ERP Attendance Admin Panel** that I developed as part of my **Frontend Development Internship**.
 
-## Expanding the Oxlint configuration
+The objective of this task was to build a responsive and user-friendly admin interface for an ERP Attendance Management System using modern React technologies. The project focuses on frontend development, reusable components, routing, responsive layouts, and API integration.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+> **Note:** This project represents my internship assignment and showcases my frontend development skills. It is intended for learning and portfolio purposes.
+
+---
+
+## ✨ Features
+
+* 📊 Dashboard
+* 👨‍💼 Employee Management
+* 🕒 Attendance Management
+* 📝 Leave Requests
+* 📂 Leave Types
+* 👨‍💻 Supervisor Management
+* 📈 Reports
+* 🎨 Responsive Material UI Design
+* 🔄 React Router Navigation
+* 🌐 Axios API Integration
+
+---
+
+## 🛠 Tech Stack
+
+* React.js
+* Vite
+* Material UI (MUI)
+* React Router
+* Axios
+* JavaScript (ES6)
+* CSS
+
+---
+
+## 📷 Screenshots
+
+Create a folder named **screenshots** and add your project images.
+
+```text
+screenshots/
+├── dashboard.png
+├── employees.png
+├── attendance.png
+├── leave-requests.png
+├── reports.png
+```
+
+Example:
+
+### Dashboard
+
+```markdown
+![Dashboard](screenshots/dashboard.png)
+```
+
+### Attendance
+
+```markdown
+![Attendance](screenshots/attendance.png)
+```
+
+---
+
+## 📂 Project Structure
+
+```text
+src/
+├── components/
+├── layouts/
+├── pages/
+│   ├── Dashboard/
+│   ├── Employees/
+│   ├── Attendance/
+│   ├── Holidays/
+│   ├── LeaveRequests/
+│   ├── LeaveTypes/
+│   ├── Reports/
+│   └── SupervisorManagement/
+├── routes/
+├── services/
+├── theme/
+├── App.jsx
+└── main.jsx
+```
+
+---
+
+## 🚀 Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/harini-3005/ERP_Attendance_Admin_Panel.git
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the project:
+
+```bash
+npm run dev
+```
+
+---
+
+## 🎯 Internship Learning Outcomes
+
+During this internship task, I gained practical experience in:
+
+* Building responsive React applications
+* Developing reusable UI components
+* Material UI implementation
+* React Router navigation
+* Axios API integration
+* Project folder organization
+* Git & GitHub version control
+* Professional frontend development practices
+
+---
+
+## 🔮 Future Improvements
+
+* Authentication
+* Role-based access
+* Dark mode
+* Report export (PDF/Excel)
+* Real-time notifications
+* Dashboard analytics
+
+---
+
+## 👩‍💻 Author
+
+**Harini V S**
+
+AI & Data Science Undergraduate
+
+GitHub: https://github.com/harini-3005
+
+---
+
+If you found this project interesting, feel free to ⭐ the repository.
